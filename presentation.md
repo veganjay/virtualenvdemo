@@ -96,7 +96,8 @@ Compared to virtualenv, the venv module does not have a many features, and:
 Configure bash aliases:
 
 ```
-$ curl https://gist.githubusercontent.com/dbtek/fb2ddccb18f0cf63a654ea2cc94c8f19/raw/505a384efb9595ea7664ac6f7911cfe81c7296f0/venv_wrapper >> ~/.bash_aliases
+$ curl https://raw.githubusercontent.com/veganjay/virtualenvdemo/main/docker/bash_aliases \
+  >> ~/.bash_aliases
 $ source ~/.bash_aliases
 ```
 
